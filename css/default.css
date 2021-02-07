@@ -2031,7 +2031,9 @@ div#cookie-law {
 .lpc_desktop.lpc_window_maximized{
   width: 77vw !important;
 }
-
+.lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_card.lpc_message__text_avatar-hidden.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop .lpc_desktop.lpc_card__text span {
+  font-size: 1.3em;
+}
 /* left bubble */
 .lpc_desktop .lp_chat_line_wrapper.lp_agent {
   display: flex;
@@ -2328,10 +2330,12 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_message__text,
+.lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_card.lpc_message__text_avatar-hidden.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop .lpc_desktop.lpc_card__text span,
 .lpc_desktop.lpc_message_agent__text p {
   font-family: Helvetica !important;
   color: var(--navy) !important;
 }
+
 
 .lpc_desktop.lpc_message__text_agent strong,
 .lpc_desktop.lpc_message__text_agent p strong,
