@@ -2091,7 +2091,7 @@ margin-right: 15px;
 
 .lpc_desktop.lpc_maximized-header__icon,
 .lpc_desktop.lpc_minimized-header__icon {
-  background-image: url("https://www.liveperson.com/sites/default/files/chatbubble-white.png") !important;
+  background-image: url(https://fakeimg.pl/300/) !important;
   background-repeat: no-repeat !important;
   background-position: 2px 1px !important;
   background-size: 20px !important;
@@ -2438,6 +2438,7 @@ margin-right: 15px;
   border-top: none !important;
   width: 50%;
   margin: 0 auto;
+  bottom: 10px !important;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
