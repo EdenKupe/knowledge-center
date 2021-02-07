@@ -27,6 +27,10 @@ body {
   overflow-x: hidden;
 }
 
+body#homeBody {
+  background-color: var(--navy);
+}
+
 p {
   margin-bottom: 25px;
   font-family: "Roboto", "Open Sans", Helvetica;
@@ -2034,7 +2038,9 @@ div#cookie-law {
 }
 .lpc_desktop .lp_chat_line_wrapper .agent_avatar {
 display: block !important;
+margin-right: 15px;
 }
+
 .lpc_desktop.lpc_maximized-header,
 .lpc_desktop.lpc_minimized-header {
   border: none !important;
@@ -2456,4 +2462,12 @@ display: block !important;
 
 .lp_time.lp_time_side.lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_agent.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
   display: none !important;
+}
+
+.lpc_desktop.lpc_message_card.lpc_message_card {
+  padding: 0px 0px !important;
+}
+
+.lpc_message_card .lp-json-pollock {
+  padding-bottom: 0px !important;
 }
