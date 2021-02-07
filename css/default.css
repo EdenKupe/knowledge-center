@@ -1970,6 +1970,7 @@ div#cookie-law {
   background: var(--gray) !important;
   display: flex;
   align-items: center;
+  border-radius: 0 i !important;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
@@ -2156,6 +2157,7 @@ display: block !important;
   margin-bottom: 0 !important;
   max-height: 100% !important;
   right: 0 !important;
+  margin-bottom: 50px !important;
 }
 
 .lpc_desktop.lpc_layout {
