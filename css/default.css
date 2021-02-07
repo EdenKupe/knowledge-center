@@ -1979,6 +1979,7 @@ div#cookie-law {
   border-radius: 8px !important;
   padding: 0 !important;
   padding-left: 15px !important;
+  overflow: auto;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
@@ -2490,7 +2491,9 @@ margin-right: 15px;
   background-size: 20px;
   height: 22px !important;
 }
-
+.lpc_desktop .lp_location_bottom.lpc_composer.lpc_composer_maximized.lpc_desktop .lp_file-icon.lp_icon-dark {
+  display: none !important;
+}
 .lpc_transcript.lpc_transcript_maximized.lpc_desktop {
   width: 50%;
   margin: 0 auto;
