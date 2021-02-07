@@ -2328,8 +2328,8 @@ margin-right: 15px;
 
 .lpc_desktop.lpc_message__text,
 .lpc_desktop.lpc_message_agent__text p {
-  color: #333 !important;
   font-family: Helvetica !important;
+  color: var(--navy) !important;
 }
 
 .lpc_desktop.lpc_message__text_agent strong,
@@ -2410,7 +2410,7 @@ margin-right: 15px;
 
 .lpc_desktop.lpc_message__text_visitor,
 .lpc_desktop.lpc_message__text_visitor p {
-  color: #333 !important;
+  color: var(--navy) !important;
   font-family: Helvetica !important;
 }
 
