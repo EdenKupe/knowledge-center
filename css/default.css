@@ -1961,7 +1961,7 @@ div#cookie-law {
 
 
 /* new bot  */
-
+/* colors */
 .lpc_desktop.lpc_body {
   background: var(--navy) !important;
 }
@@ -2242,7 +2242,7 @@ display: block !important;
   width: 100% !important;
 }
 .lpc_desktop.lpc_message-area__timestamp {
-  margin-top: 10px !important;
+  margin-top: 0 !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
