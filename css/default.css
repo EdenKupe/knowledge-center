@@ -1996,11 +1996,14 @@ div#cookie-law {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
 }
 
-.lp-window-root .lp_line_state_wrapper .lp_line_state {
+.lpc_desktop .lp-window-root .lp_line_state_wrapper .lp_line_state {
   bottom: -15px !important;
   left: -100px !important;
 }
-
+.lpc_desktop .lp_time.lp_time_side.lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_visitor.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
+  bottom: -15px !important;
+  left: -100px !important;
+}
 .lpc_desktop.lpc_message-area {
   padding: 0 20px 4px !important;
 }
