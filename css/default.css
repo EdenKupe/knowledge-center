@@ -1996,11 +1996,15 @@ div#cookie-law {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
 }
 
-.lp-window-root .lp_line_state_wrapper .lp_line_state {
+.lpc_desktop .lp_line_state_wrapper .lp_line_state {
   bottom: -15px !important;
   left: -100px !important;
 }
-
+.lpc_desktop .lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_visitor.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
+  bottom: -20px !important;
+  left: -100px !important;
+  color: var(--light-white) !important;
+}
 .lpc_desktop.lpc_message-area {
   padding: 0 20px 4px !important;
 }
@@ -2046,7 +2050,7 @@ div#cookie-law {
   border-radius: 50% !important;
   border-width: 0 !important;
   background-size: cover;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
@@ -2293,6 +2297,7 @@ margin-right: 15px;
 }
 .lpc_desktop.lpc_message-area__timestamp {
   margin-top: 0 !important;
+  color: var(--light-white) !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
