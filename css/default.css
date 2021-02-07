@@ -2311,6 +2311,8 @@ display: block !important;
 
 .lpc_desktop.lpc_message-area_agent {
   padding: 0 20px 4px !important;
+  flex-direction: column;
+  align-items: flex-start !important;
 }
 
 .lpc_desktop.lpc_message-area__avatar_agent {
@@ -2442,4 +2444,8 @@ display: block !important;
 .lpc_transcript.lpc_transcript_maximized.lpc_desktop {
   width: 50%;
   margin: 0 auto;
+}
+
+.lp_time.lp_time_side.lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_agent.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
+  display: none !important;
 }
