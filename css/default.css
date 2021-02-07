@@ -2003,6 +2003,7 @@ div#cookie-law {
 .lpc_desktop .lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_visitor.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
   bottom: -20px !important;
   left: -100px !important;
+  color: var(--light-white) !important;
 }
 .lpc_desktop.lpc_message-area {
   padding: 0 20px 4px !important;
