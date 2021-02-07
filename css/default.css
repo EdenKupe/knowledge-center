@@ -5,6 +5,7 @@
   --periwinkle: #a5b9f3;
   --orange: #fe5e00;
   --gray: #C5C7CE;
+  --light-white: #FCFCFD;
 }
 
 * {
@@ -1988,9 +1989,16 @@ div#cookie-law {
   color: #fff !important;
   font-style: italic !important;
 }
-
+.lpc_transcript.lpc_transcript_maximized.lpc_desktop div#lp_date_line_Today {
+  color: var(--light-white) !important;
+}
 .lpc_desktop.lpc_window_maximized {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.lp-window-root .lp_line_state_wrapper .lp_line_state {
+  bottom: -15px !important;
+  left: -100px !important;
 }
 
 .lpc_desktop.lpc_message-area {
@@ -2029,6 +2037,15 @@ div#cookie-law {
 }
 .lpc_desktop .lp_chat_line_wrapper.lp_agent .lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_avatar-hidden.lpc_desktop {
   font-size: 1.3em;
+}
+.lpc_desktop .lp_chat_line_wrapper.lp_agent img.agent_avatar.lpc_message-area__avatar.lpc_message-area__avatar_agent.lpc_message-area__avatar_avatar-hidden.lpc_desktop {
+  align-self: center;
+  width: 40px !important;
+  height: 40px !important;
+  background: url(https://fakeimg.pl/300/);
+  border-radius: 50% !important;
+  border-width: 0 !important;
+  background-size: cover;
 }
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
