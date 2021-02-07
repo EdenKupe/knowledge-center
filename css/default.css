@@ -2415,3 +2415,8 @@ display: block !important;
   background-size: 18px;
   height: 30px !important;
 }
+
+.lpc_transcript.lpc_transcript_maximized.lpc_desktop {
+  width: 50%;
+  margin: 0 auto;
+}
