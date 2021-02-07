@@ -2499,3 +2499,19 @@ margin-right: 15px;
 .lpc_message_card .lp-json-pollock {
   padding-bottom: 0px !important;
 }
+
+.lpc_composer__file-attachment-button-asset {
+  display: none;
+}
+
+.lpc_composer__emoji-button {
+  margin-bottom: 6px !important;
+}
+
+.lpc_composer__emoji-button svg path {
+  fill: #fff !important;
+}
+
+.lpc_composer__send-button svg path {
+  fill: #fff !important;
+}
