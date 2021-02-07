@@ -2149,7 +2149,7 @@ display: block !important;
 }
 
 .lpc_desktop.lpc_window_maximized {
-  height: 91.2vh !important;
+  height: calc(100vh - 120px) !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
   max-height: 100% !important;
