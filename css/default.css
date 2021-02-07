@@ -2007,11 +2007,26 @@ div#cookie-law {
 .lpc_desktop.lpc_window_maximized{
   width: 77vw !important;
 }
+
+/* left bubble */
 .lpc_desktop .lp_chat_line_wrapper.lp_agent {
   display: flex;
   align-items: center;
   padding: 15px 0 15px 0 !important;
   position: relative;
+}
+.lpc_desktop .lp_chat_line_wrapper.lp_agent .lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_avatar-hidden.lpc_desktop {
+  font-size: 1.3em;
+}
+/* right bubble */
+.lpc_desktop.lpc_message_visitor {
+  border: none !important;
+  background: var(--periwinkle) !important;
+  padding: 20px 15px !important;
+  border-radius: 20px 20px 0 20px !important;
+}
+.lpc_desktop.lpc_message_visitor span.lp_title_text.lpc_message__text {
+  font-size: 1.3em;
 }
 .lpc_desktop .lp_chat_line_wrapper .agent_avatar {
 display: block !important;
@@ -2265,7 +2280,7 @@ display: block !important;
 .lpc_desktop.lpc_message_agent {
   background: #fff !important;
   border: none !important;
-  padding: 15px 10px !important;
+  padding: 20px 15px !important;
   border-radius: 20px 20px 20px 0 !important;
 }
 
@@ -2342,13 +2357,6 @@ display: block !important;
 .lpc_desktop.lpc_message-tail_agent,
 .lpc_desktop.lpc_message-tail__border_agent {
   display: none !important;
-}
-
-.lpc_desktop.lpc_message_visitor {
-  border: none !important;
-  background: var(--periwinkle) !important;
-  padding: 15px 10px !important;
-  border-radius: 20px 20px 0 20px !important;
 }
 
 .lpc_desktop.lpc_message__text_visitor,
