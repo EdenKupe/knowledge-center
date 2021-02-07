@@ -2011,6 +2011,7 @@ div#cookie-law {
 /* left bubble */
 .lpc_desktop .lp_chat_line_wrapper.lp_agent {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 15px 0 15px 0 !important;
   position: relative;
@@ -2148,7 +2149,7 @@ display: block !important;
 }
 
 .lpc_desktop.lpc_window_maximized {
-  height: 100vh !important;
+  height: 91.2vh !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
   max-height: 100% !important;
@@ -2274,7 +2275,8 @@ display: block !important;
 }
 
 .lpc_desktop.lpc_message-area__timestamp_agent {
-  padding: 3px 3px 3px 43px !important;
+  padding: 5px 3px 3px 43px !important;
+  width: 100%;
 }
 
 .lpc_desktop.lpc_message_agent {
@@ -2311,8 +2313,6 @@ display: block !important;
 
 .lpc_desktop.lpc_message-area_agent {
   padding: 0 20px 4px !important;
-  flex-direction: column;
-  align-items: flex-start !important;
 }
 
 .lpc_desktop.lpc_message-area__avatar_agent {
