@@ -2043,12 +2043,13 @@ div#cookie-law {
 }
 .lpc_desktop .lp_chat_line_wrapper.lp_agent img.agent_avatar.lpc_message-area__avatar.lpc_message-area__avatar_agent.lpc_message-area__avatar_avatar-hidden.lpc_desktop {
   align-self: center;
-  width: 40px !important;
-  height: 40px !important;
+  width: 30px !important;
+  height: 30px !important;
   background: url(https://fakeimg.pl/300/);
   border-radius: 50% !important;
   border-width: 0 !important;
   background-size: cover;
+  align-self: flex-start;
 }
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
@@ -2379,9 +2380,10 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_card__button button {
-  background: #e7e4e3 !important;
+  background: #4a61a9 !important;
   margin-bottom: 0 !important;
-  color: #333 !important;
+  color: #fff !important;
+  opacity: 0.7 !important;
 }
 
 .lpc_desktop.lpc_card__button button:focus {
@@ -2389,7 +2391,8 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_card__button button:hover {
-  background: #fff !important;
+  opacity: 1 !important;
+  cursor: pointer;
 }
 
 .lpc_desktop.lpc_message-tail_agent,
@@ -2442,6 +2445,7 @@ margin-right: 15px;
 .lpc_desktop.lpc_composer__text-area-wrapper {
   padding: 18px 0 !important;
   display: flex;
+  width: 90%;
 }
 .lpc_desktop .lp_main_area .lp_location_bottom .lp_file_button {
   position: initial !important;
