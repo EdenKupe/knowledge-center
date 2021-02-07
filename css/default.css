@@ -1965,6 +1965,19 @@ div#cookie-law {
 .lpc_desktop.lpc_body {
   background: var(--navy) !important;
 }
+
+.lpc_desktop .lp_emoji_supported.lp_menu_top {
+  background: var(--gray) !important;
+}
+
+.lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
+  color: var(--electric-blue) !important;
+}
+
+.lpc_desktop .lp_emoji_supported.lp_menu_top textarea::-webkit-input-placeholder {
+  color: var(--electric-blue) !important;
+}
+
 .lpc_desktop.lpc_window_maximized {
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
 }
@@ -1987,10 +2000,12 @@ div#cookie-law {
 }
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
-  width: 77vw !important;
   border: none !important;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
   overflow: hidden;
+}
+.lpc_desktop.lpc_window_maximized{
+  width: 77vw !important;
 }
 .lpc_desktop .lp_chat_line_wrapper.lp_agent {
   display: flex;
