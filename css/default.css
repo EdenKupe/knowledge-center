@@ -2034,8 +2034,10 @@ div#cookie-law {
   align-self: center;
   width: 40px !important;
   height: 40px !important;
-  background: red;
+  background: url(https://fakeimg.pl/300/);
   border-radius: 50% !important;
+  border-width: 0 !important;
+  background-size: cover;
 }
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
