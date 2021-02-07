@@ -2030,6 +2030,13 @@ div#cookie-law {
 .lpc_desktop .lp_chat_line_wrapper.lp_agent .lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_avatar-hidden.lpc_desktop {
   font-size: 1.3em;
 }
+.lpc_desktop .lp_chat_line_wrapper.lp_agent img.agent_avatar.lpc_message-area__avatar.lpc_message-area__avatar_agent.lpc_message-area__avatar_avatar-hidden.lpc_desktop {
+  align-self: center;
+  width: 40px !important;
+  height: 40px !important;
+  background: red;
+  border-radius: 50% !important;
+}
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
   border: none !important;
