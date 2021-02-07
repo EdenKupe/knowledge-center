@@ -2324,6 +2324,7 @@ margin-right: 15px;
   border: none !important;
   padding: 20px 15px !important;
   border-radius: 20px 20px 20px 0 !important;
+  top: 0;
 }
 
 .lpc_desktop.lpc_message__text,
