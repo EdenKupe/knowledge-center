@@ -1961,13 +1961,15 @@ div#cookie-law {
 
 
 /* new bot  */
-/* colors */
+
 .lpc_desktop.lpc_body {
   background: var(--navy) !important;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top {
   background: var(--gray) !important;
+  display: flex;
+  align-items: center;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
@@ -2234,6 +2236,7 @@ display: block !important;
   top: 50px !important;
   overflow: hidden !important;
   border: none !important;
+  border-radius: 0 !important;
 }
 
 .lpc_desktop.lpc_banner-image-area {
@@ -2402,8 +2405,11 @@ display: block !important;
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
   padding: 18px 0 !important;
+  display: flex;
 }
-
+.lpc_desktop .lp_main_area .lp_location_bottom .lp_file_button {
+  position: initial !important;
+}
 .lpc_desktop.lpc_composer__text-area {
   font-size: 14px !important;
 }
