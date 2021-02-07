@@ -1966,6 +1966,9 @@ div#cookie-law {
 
 
 /* new bot  */
+.LPMcontainer.LPMoverlay {
+  background-color: var(--orange) !important;
+}
 
 .lpc_desktop.lpc_body {
   background: var(--navy) !important;
