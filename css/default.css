@@ -2001,7 +2001,7 @@ div#cookie-law {
   left: -100px !important;
 }
 .lpc_desktop .lpc_message-area__side-timestamp.lpc_message-area__side-timestamp_visitor.lpc_message-area__side-timestamp_avatar-hidden.lpc_desktop {
-  bottom: -15px !important;
+  bottom: -20px !important;
   left: -100px !important;
 }
 .lpc_desktop.lpc_message-area {
@@ -2295,6 +2295,7 @@ margin-right: 15px;
 }
 .lpc_desktop.lpc_message-area__timestamp {
   margin-top: 0 !important;
+  color: var(--light-white) !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
