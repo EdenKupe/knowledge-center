@@ -1974,7 +1974,7 @@ div#cookie-law {
   background: var(--gray) !important;
   display: flex;
   align-items: center;
-  border-radius: 0 i !important;
+  border-radius: 0 !important;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
