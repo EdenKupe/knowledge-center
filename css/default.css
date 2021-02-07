@@ -2050,7 +2050,7 @@ div#cookie-law {
   border-radius: 50% !important;
   border-width: 0 !important;
   background-size: cover;
-  align-self: flex-start;
+  align-self: flex-end;
 }
 /* right bubble */
 .lpc_desktop.lpc_message_visitor {
