@@ -2369,6 +2369,10 @@ margin-right: 15px;
   max-width: none !important;
 }
 
+.lpc_desktop.lpc_message-area {
+  padding: 0 0 4px 20px !important;
+}
+
 .lpc_desktop.lpc_card__text {
   background: #fff !important;
   padding: 20px 15px !important;
