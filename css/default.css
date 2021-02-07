@@ -2158,7 +2158,7 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_window_maximized {
-  height: calc(100vh - 120px) !important;
+  height: calc(100vh - 170px) !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
   max-height: 100% !important;
