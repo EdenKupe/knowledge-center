@@ -1971,18 +1971,22 @@ div#cookie-law {
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top {
-  background: var(--gray) !important;
+  background: var(--navy) !important;
   display: flex;
   align-items: center;
-  border-radius: 0 !important;
+  border: 1px solid white;
+  border-radius: 8px !important;
+  padding: 0 !important;
+  padding-left: 15px !important;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
-  color: var(--electric-blue) !important;
+  color: #fff !important;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea::-webkit-input-placeholder {
-  color: var(--electric-blue) !important;
+  color: #fff !important;
+  font-style: italic !important;
 }
 
 .lpc_desktop.lpc_window_maximized {
@@ -2158,7 +2162,7 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_window_maximized {
-  height: calc(100vh - 120px) !important;
+  height: calc(100vh - 170px) !important;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
   max-height: 100% !important;
@@ -2409,7 +2413,10 @@ margin-right: 15px;
 .lpc_desktop.lpc_composer {
   height: 50px !important;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
+  background-color: var(--navy) !important;
   border-top: none !important;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
