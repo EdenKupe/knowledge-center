@@ -2328,6 +2328,7 @@ margin-right: 15px;
   width: 20px !important;
   height: 20px !important;
   border-radius: 0 !important;
+  align-self: flex-start;
 }
 
 .lpc_desktop.lpc_card {
