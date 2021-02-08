@@ -5,7 +5,7 @@
   --periwinkle: #a5b9f3;
   --orange: #fe5e00;
   --gray: #C5C7CE;
-  --light-white: #FCFCFD;
+  --light-white: #DBDCE1;
 }
 
 * {
@@ -1966,6 +1966,9 @@ div#cookie-law {
 
 
 /* new bot  */
+.LPMcontainer.LPMoverlay {
+  background-color: var(--orange) !important;
+}
 
 .lpc_desktop.lpc_body {
   background: var(--navy) !important;
@@ -1979,6 +1982,7 @@ div#cookie-law {
   border-radius: 8px !important;
   padding: 0 !important;
   padding-left: 15px !important;
+  overflow: auto;
 }
 
 .lpc_desktop .lp_emoji_supported.lp_menu_top textarea {
@@ -2030,7 +2034,9 @@ div#cookie-law {
 .lpc_desktop.lpc_window_maximized{
   width: 77vw !important;
 }
-
+.lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_card.lpc_message__text_avatar-hidden.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop .lpc_desktop.lpc_card__text span {
+  font-size: 1.3em;
+}
 /* left bubble */
 .lpc_desktop .lp_chat_line_wrapper.lp_agent {
   display: flex;
@@ -2323,13 +2329,16 @@ margin-right: 15px;
   border: none !important;
   padding: 20px 15px !important;
   border-radius: 20px 20px 20px 0 !important;
+  top: 0;
 }
 
 .lpc_desktop.lpc_message__text,
+.lp_title_text.lpc_message__text.lpc_message__text_agent.lpc_message__text_card.lpc_message__text_avatar-hidden.lpc_desktop .lp-json-pollock-element-text.lpc_card__text.lpc_desktop .lpc_desktop.lpc_card__text span,
 .lpc_desktop.lpc_message_agent__text p {
-  color: #333 !important;
   font-family: Helvetica !important;
+  color: var(--navy) !important;
 }
+
 
 .lpc_desktop.lpc_message__text_agent strong,
 .lpc_desktop.lpc_message__text_agent p strong,
@@ -2368,9 +2377,13 @@ margin-right: 15px;
   max-width: none !important;
 }
 
+.lpc_desktop.lpc_message-area {
+  padding: 0 0 4px 20px !important;
+}
+
 .lpc_desktop.lpc_card__text {
   background: #fff !important;
-  padding: 10px !important;
+  padding: 20px 15px !important;
 }
 
 .lpc_desktop.lpc_card__text span {
@@ -2405,7 +2418,7 @@ margin-right: 15px;
 
 .lpc_desktop.lpc_message__text_visitor,
 .lpc_desktop.lpc_message__text_visitor p {
-  color: #333 !important;
+  color: var(--navy) !important;
   font-family: Helvetica !important;
 }
 
@@ -2449,7 +2462,7 @@ margin-right: 15px;
 .lpc_desktop.lpc_composer__text-area-wrapper {
   padding: 18px 0 !important;
   display: flex;
-  width: 90%;
+  width: 87%;
 }
 .lpc_desktop .lp_main_area .lp_location_bottom .lp_file_button {
   position: initial !important;
@@ -2485,13 +2498,15 @@ margin-right: 15px;
 }
 
 .lpc_desktop.lpc_composer__send-button {
-  background-image: url("https://www.liveperson.com/sites/default/files/darksend.png");
+  background-image: url(../img/send_home_new.svg);
   background-repeat: no-repeat;
-  background-position: 0 4px;
-  background-size: 18px;
-  height: 30px !important;
+  background-position: 0;
+  background-size: 20px;
+  height: 22px !important;
 }
-
+.lpc_desktop .lp_location_bottom.lpc_composer.lpc_composer_maximized.lpc_desktop .lp_file-icon.lp_icon-dark {
+  display: none !important;
+}
 .lpc_transcript.lpc_transcript_maximized.lpc_desktop {
   width: 50%;
   margin: 0 auto;
