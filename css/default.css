@@ -2443,7 +2443,7 @@ margin-right: 15px;
   border-top: none !important;
   width: 50%;
   margin: 0 auto;
-  bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
@@ -2453,6 +2453,7 @@ margin-right: 15px;
 }
 .lpc_desktop .lp_main_area .lp_location_bottom .lp_file_button {
   position: initial !important;
+  display: none;
 }
 .lpc_desktop.lpc_composer__text-area {
   font-size: 14px !important;
