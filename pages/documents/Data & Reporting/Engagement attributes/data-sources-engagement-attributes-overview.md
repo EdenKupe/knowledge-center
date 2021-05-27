@@ -25,7 +25,7 @@ eCommerce info attributes allow you to track the eCommerce activities of your vi
 * **Transaction:** The details of any exchange of money for goods or services including the products themselves and their details.
 
   **Note:** For brands operating in multiple currencies, a currency attribute can also be reported for order total.
-* **Viewed product:** Use viewed product attributes to learn more about products that interest your visitor. Discover which products were viewed, their name, category, price, and SKU.
+* **Viewed product:** Use viewed product attributes to learn more about products that interest your visitor. Discover which products were viewed, their name, category, price, and SKU as well as stock status and available quantity.
 
   **Note:** For brands operating in multiple currencies, a currency attribute can also be reported for the viewed product price.
 

@@ -294,6 +294,8 @@
         - pagename: "Information on your consumers' transactions"
         - pagename: Multi currency
         - pagename: Identify viewed products
+        - pagename: Identify viewed products by number of views
+        - pagename: Identify viewed products by stock status
         - pagename: Attribution model
     - subcategoryname: Performance Optimizer
       pages: 

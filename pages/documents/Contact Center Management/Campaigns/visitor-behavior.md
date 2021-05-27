@@ -88,6 +88,12 @@ In order to target consumers who are interested in a specific product or type of
 
 ![](/img/visitor-behavior-3.png)
 
+In order to target consumers who are interested in a product which has a specific stock status or available quantity in stock, you can configure an engagement to appear if viewed product matches status or quantity. In case of quantity an engagement will appear for actual quantity less than or equal to configured one. 
+![](/img/visitor-behavior-10.png)
+
+In order to target consumers who viewed product few times or more, you can configure an engagement to appear if actual number of views matches the configured one.
+![](/img/visitor-behavior-11.png)
+
 Viewed Product is an Engagement Attribute; for more information on reporting this attribute, please refer to the [relevant section](https://developers.liveperson.com/data-access-api-methods-web-session.html#engagement-attribute-type---viewedproduct-viewedproduct) in the Engagement Attributes guide on the Developer Center.
 
 ### 8. Visitor error:
