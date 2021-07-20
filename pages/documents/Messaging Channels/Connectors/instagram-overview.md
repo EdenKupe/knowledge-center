@@ -64,7 +64,4 @@ Instagram is a hugely popular photo and video-sharing social media platform. Use
 
 ## Setting up Instagram 
 
-The Instagram connector is currently in an early adopter phase and requires approval from Facebook. Please reach out to your LivePerson account team in order to start the approval process. You should have a Facebook business page that is connected to an Instagram handle prior to the account setup. 
-
-
-![](img/instagram-overview-8.jpg)
+To get started right away, see the [**Instagram Messenger Quick Start**](/getting-started-quick-start-guides-instagram-quick-start.html) article.a
